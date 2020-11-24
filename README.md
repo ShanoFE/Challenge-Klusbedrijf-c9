@@ -52,13 +52,16 @@ Het belangrijkste onderdeel van dit document is het maken van een Entiteit Relat
 ## Casus
 
 •	Alle gebruikers moeten kunnen inloggen
-•	Medewerkers kunnen 
-–	Klanten bekijken, aanmaken, wijzigen of verwijderen
-–	Medewerkers bekijken, aanmaken, wijzigen of verwijderen
-–	Klusopdrachten bekijken, aanmaken, wijzigen of verwijderen
+•	Medewerkers kunnen
+
+  –	Klanten bekijken, aanmaken, wijzigen of verwijderen
+  –	Medewerkers bekijken, aanmaken, wijzigen of verwijderen
+  –	Klusopdrachten bekijken, aanmaken, wijzigen of verwijderen
+
 •	Een klus vindt altijd plaats in een bepaalde locatie, bijvoorbeeld: woonkamer, badkamer etc…
-•	Klanten kunnen 
-–	Klusopdrachten aanvragen
-–	Klus opdrachten annuleren
-–	Hun eigen klusopdrachten bekijken
-–	Hebben verschillende locaties: deze locaties hebben eigenschappen als: verdieping, hoogte,breedte en lengte
+•	Klanten kunnen
+
+  –	Klusopdrachten aanvragen
+  –	Klus opdrachten annuleren
+  –	Hun eigen klusopdrachten bekijken
+  –	Hebben verschillende locaties: deze locaties hebben eigenschappen als: verdieping, hoogte,breedte en lengte

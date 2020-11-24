@@ -54,9 +54,9 @@ Het belangrijkste onderdeel van dit document is het maken van een Entiteit Relat
 •	Alle gebruikers moeten kunnen inloggen
 •	Medewerkers kunnen
 
-  –	Klanten bekijken, aanmaken, wijzigen of verwijderen
-  –	Medewerkers bekijken, aanmaken, wijzigen of verwijderen
-  –	Klusopdrachten bekijken, aanmaken, wijzigen of verwijderen
+- Klanten bekijken, aanmaken, wijzigen of verwijderen
+- Medewerkers bekijken, aanmaken, wijzigen of verwijderen
+- Klusopdrachten bekijken, aanmaken, wijzigen of verwijderen
 
 •	Een klus vindt altijd plaats in een bepaalde locatie, bijvoorbeeld: woonkamer, badkamer etc…- Klanten kunnen
 

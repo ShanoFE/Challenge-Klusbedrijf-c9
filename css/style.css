@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  background-color: lightsteelblue;
+  height: 100%;
+  width: 100%;
+}
+button {
+  max-width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  color: white;
+  margin-right: 1px;
+}
+a {
+  color: white;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  float: left;
+}
+header {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  height: 150px;
+  font-size: 40px;
+  width: 100%;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+p {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-top: 50px;
+}
+.menu a {
+  text-decoration: none;
+  border: 2px solid black;
+  width: 150px;
+  text-align: center;
+  color: black;
+}
+/*css voor footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/*agenda/////////////////////////////////////////////////////////////////////////////////////////////* 
+/* Month header */
+.month {
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
+/*login /////////////////////////////////////////////////////////////////////////////////////////*/
+.inputfields {
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+}
+
+.inputfields input {
+  border: 2px solid grey;
+  margin: 5px 0px 5px 0px;
+  padding: 8px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.inputfields input:hover {
+  border: 2px solid lightblue;
+}
+
+.inputfields .send {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 220px;
+}
+
+.inputfields .send a:nth-child(1) {
+  font-size: 16px;
+  color: grey;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputfields .send button {
+  max-width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  color: white;
+  margin-right: 1px;
+}
+
+.inputfields .send button:hover {
+  background-color: white;
+  color: lightblue;
+  border: 1px solid lightblue;
+}
